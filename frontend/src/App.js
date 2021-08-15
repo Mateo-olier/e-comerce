@@ -1,10 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import { BrowserRouter, Route } from "react-router-dom";
+
+import "./App.css";
+import Header from "./component/principal/Header";
 
 function App() {
   return (
     <div>
-      Hola
+      <BrowserRouter>
+        <Header></Header>
+      </BrowserRouter>
     </div>
   );
 }
