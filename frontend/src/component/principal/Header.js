@@ -39,8 +39,14 @@ export default function Header() {
                 <a>Carrito</a>
               </Link>
             </li>
+            <li>
+              <Link to="/">
+                <a>Buscar</a>
+              </Link>
+            </li>
           </ul>
         </header>
+        <section className='section1'></section>
     </div>
   );
 }
