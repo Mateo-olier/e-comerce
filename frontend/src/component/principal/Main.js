@@ -30,7 +30,7 @@ export default function Main() {
           <div className="yours-custom-class">
             <div className="context">
               <div className="description">
-                <h1>New Collection </h1>
+                <h1>New Collection 2</h1>
               </div>
             </div>
 
