@@ -207,3 +207,48 @@ main {
     margin-right: 10px;
   }
 }
+/*Screen Products*/
+.container1 {
+  width: 100%;
+}
+.containerProducts {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.containerProducts .image {
+  position: relative;
+  width: 80%;
+  float: left;
+  background-color: aqua;
+}
+.containerProducts .image img {
+  width: 100%;
+}
+.containerProducts .content {
+  width: 100%;
+}
+input[type="radio"]:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type="radio"]:checked:after {
+  padding:1px;
+  border-radius: 15px;
+  position: relative;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
