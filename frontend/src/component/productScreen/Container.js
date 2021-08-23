@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../principal/Header";
 
+
 export default function Container() {
   const colors = {
     blue: "#1DA1F2",
@@ -24,14 +25,16 @@ export default function Container() {
             <h2>Sueter Niken-Basurtico </h2>
             <span className="precioReal">$69,000</span>
             <span className="precioDescuento">$80,000</span>
-            <form>
+            <form style={{display:'flex'}}>
               {Object.values(colors).map((item) => (
-                <input
-                  type="radio"
-                  name="color"
-                  style={{ backgroundColor: { item } }}
-                  defaultChecked
-                />
+                <label style={{ backgroundColor: item  }}>
+                  <input
+                    type="radio"
+                    name="color"
+                    defaultChecked
+                  />
+                  <div className="design" style={{background:`url("/check.png")`}}></div>
+                </label>
               ))}
             </form>
           </div>
